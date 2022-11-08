@@ -64,7 +64,8 @@ Leaving "LoadLibrary()" and "GetProcAddress()" WinApi, as use of it will be null
 1. Sektor7 Malware Dev Intermediate YT: [Manually parsing PE files with PE-bear](https://www.youtube.com/watch?v=ZLAYdGxN0IQ&t=1137s).
 2. [Corkami Project](https://raw.githubusercontent.com/corkami/pics/master/binary/pe101/pe101-64.png) by [@corkami](https://twitter.com/corkami).
 3. Blog Article: https://0xrick.github.io/win-internals by [@Ahm3d_H3sham](https://twitter.com/ahm3d_h3sham)
-4. Guidance from [Creds](https://github.com/S3cur3Th1sSh1t/Creds) by [@ShitSecure](https://twitter.com/ShitSecure).
+4. [Youtubr](https://www.youtube.com/c/Tech69YT) by [@Ox4d5a](https://twitter.com/Ox4d5a)
+5. Guidance from [Creds](https://github.com/S3cur3Th1sSh1t/Creds) by [@ShitSecure](https://twitter.com/ShitSecure).
 5. Also thanks to [@SoumyadeepBas12](https://twitter.com/SoumyadeepBas12) for assistance related to C# implementation.
 6. Took assistance from projects by [@_winterknife_](https://twitter.com/_winterknife_).
 
