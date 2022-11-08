@@ -47,11 +47,11 @@ CSharp based 2-in-1 Loader capable of running stage-1 payloads, with args passin
 1. Try using DInvoke to Obfuscate `LoadLibrary()` and `GetProcAddress()` WinApi, taking reference from [SharpSploit](https://github.com/cobbr/SharpSploit/blob/master/SharpSploit/Execution/DynamicInvoke/Native.cs), to hide them from getting detected by **EDRs**.
 2. OR, Direct Upgradation to Direct/ Indirect Sycall to fully avoid ***UserLand Hooking*** done by **EDRs**. Currently used WinApis are:
 ```
-1. VirtualAlloc()
-2. CreateThread()
-3. VirtualProtect()
-4. WaitForSingleObject()
-5. GetLastError()
+1. VirtualAlloc() (NtAllocateVirtualMemory)
+2. CreateThread() (NtCreateThread)
+3. VirtualProtect() (or, granting RWX permission directly by NtAllocateVirtualMemory)
+4. WaitForSingleObject() (NtWaitForSingleObject)
+5. GetLastError() (didn't find anything in https://j00ru.vexillium.org/syscalls/nt/64/)
 6. NtQueryInformationProcess()
 7. NtRemoveProcessDebug()
 Leaving "LoadLibrary()" and "GetProcAddress()" WinApi, as use of it will be nullified as soon as I apply DInvoke.
