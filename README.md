@@ -27,6 +27,9 @@ CSharp based 2-in-1 Loader capable of running stage-1 payloads, with args passin
 ![image](https://github.com/reveng007/reveng_loader/blob/main/img/demo2.PNG?raw=true)
 ![image](https://github.com/reveng007/reveng_loader/blob/main/img/demo3.PNG?raw=true)
 
+#### NOTE:
+When we got access to mimikatz.exe in-memory, we can see those 3 arguments got feed to this binary, but that doesn't matter much as mimkatz.exe is well versed to deal with wrong ou-of-scope options.
+
 ### Internal Noticing:
 
 1. Using [@matterpreter's](https://twitter.com/matterpreter) [DefenderCheck](https://github.com/matterpreter/DefenderCheck).
