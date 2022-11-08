@@ -65,8 +65,8 @@ Leaving "LoadLibrary()" and "GetProcAddress()" WinApi, as use of it will be null
 2. [Corkami Project](https://raw.githubusercontent.com/corkami/pics/master/binary/pe101/pe101-64.png) by [@corkami](https://twitter.com/corkami).
 3. Blog Article: https://0xrick.github.io/win-internals by [@Ahm3d_H3sham](https://twitter.com/ahm3d_h3sham)
 4. Guidance from [PE64Loader](https://github.com/winsecurity/Offensive-C-Sharp/tree/main/Code%20Injections/PE64Loader) by [@Ox4d5a](https://twitter.com/Ox4d5a) and [PELoader](https://github.com/S3cur3Th1sSh1t/Creds/blob/master/Csharp/PEloader.cs) by [@subTee](https://twitter.com/subTee) and was posted by [@ShitSecure](https://twitter.com/ShitSecure).
-5. Took assistance from projects by [@_winterknife_](https://twitter.com/_winterknife_).
-5. Also thanks to [@SoumyadeepBas12](https://twitter.com/SoumyadeepBas12) for some assistance related to C# implementation.
+5. Also thanks to [@SoumyadeepBas12](https://twitter.com/SoumyadeepBas12) for assistance related to C# implementation.
+6. Took assistance from projects by [@_winterknife_](https://twitter.com/_winterknife_).
 
 ### Author: @reveng007 (Soumyanil Biswas)
 ---
