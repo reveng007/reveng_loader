@@ -61,7 +61,7 @@ Leaving "LoadLibrary()" and "GetProcAddress()" WinApi, as use of it will be null
 ```
 3. Link:\
   i. Applying [HellsGate](https://github.com/sbasu7241/HellsGate) to wash away WinApi function calls and thereby avoiding ***UserLand Hooking*** done by **EDRs**.\
-  ii. https://github.com/susMdT/HellsGate-with-no-gate-and-dinvoking-deez\
+  ii. https://github.com/susMdT/HellsGate-with-no-gate-and-dinvoking-deez \
   iii. https://github.com/jackullrich/syscall-detect
 
 ### Resources and Credits:
