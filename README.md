@@ -59,7 +59,7 @@ When we got access to mimikatz.exe in-memory, we can see those 3 arguments got f
 7. NtRemoveProcessDebug()
 Leaving "LoadLibrary()" and "GetProcAddress()" WinApi, as use of it will be nullified as soon as I apply DInvoke.
 ```
-3. Link: 
+3. Link:\
   i. Applying [HellsGate](https://github.com/sbasu7241/HellsGate) to wash away WinApi function calls and thereby avoiding ***UserLand Hooking*** done by **EDRs**.\
   ii. https://github.com/susMdT/HellsGate-with-no-gate-and-dinvoking-deez\
   iii. https://github.com/jackullrich/syscall-detect
