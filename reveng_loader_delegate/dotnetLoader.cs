@@ -604,11 +604,13 @@ namespace reveng_loader
 				bool check = IsAdministrator();
 				if (check.Equals("true"))
 				{
-					Console.WriteLine("\n[+] Current user is Admininstrator!");
+					Console.WriteLine("\n[+] Current Process is Admininstrator!");
+					Console.ReadKey();
 				}
 				else
 				{
-					Console.WriteLine("\n[+] Current user is Not Admininstrator => Privilege Escalation is needed!");
+					Console.WriteLine("\n[+] Current Process is Not Admininstrator => Privilege Escalation is needed!");
+					Console.ReadKey();
 				}
 
 				CheckDebugger();
