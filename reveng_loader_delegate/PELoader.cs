@@ -1342,7 +1342,7 @@ namespace PELoader
             Console.WriteLine("\n[*] Mapping Sections into Memory...");
 
             Console.WriteLine("\n[+] SECTION_HEADER:");
-            Console.WriteLine("\t 6th Member: Name =>");
+            Console.WriteLine("\t 2nd Member: Name =>");
             for (int i = 0; i < ntheader.FileHeader.NumberOfSections; i++)
             {
                 //IntPtr sectionalloc = virtualalloc(
